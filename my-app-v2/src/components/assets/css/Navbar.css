@@ -1,0 +1,9 @@
+.item-link:not(:first-child) {
+    color: #000 !important;
+    transition: .5s ease;
+}
+
+.item-link:not(:first-child):hover {
+    color: #2181ff !important;
+    transition: .5s ease;
+}

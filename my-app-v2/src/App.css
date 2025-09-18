@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   min-height: 100vh;
-  background: url(./assets/img/bg.png);
+  background: url(./components/assets/img/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: start center;

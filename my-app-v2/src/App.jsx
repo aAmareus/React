@@ -1,45 +1,39 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import {Route, Routes} from 'react-router-dom'
+
 // Import custom components
-import LoginForm from './assets/forms/LoginForm.jsx'
+import NavBar from './components/pageComponents/navigation/Navbar.jsx'
+import LoginForm from './components/pageComponents/forms/LoginForm.jsx'
+import Register from './components/pages/register.jsx'
+import Catalogo from './components/pages/catalogo.jsx'
+import Cuenta from './components/pages/cuenta.jsx'
+import Preview from './components/pageComponents/navigation/Preview.jsx'
 
-// Import components of Bootstrap
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-
-
-
-// Import img's
-import Logo from './assets/img/logo-B.png'
 function App() {
 
   return (
     // Start of the page
     <>
-      {/* Navbar */}
-      <Navbar bg='light' data-bs-theme='light' className='navbar-container sticky-top'>
-        <Navbar.Brand href='#' className='brand d-flex align-middle'>
-          <img src={Logo}
-            width={40}
-            height={40}
-            className='me-2'
-          />
-          {''}
-          <p>Biblioteca Municipal</p>
-        </Navbar.Brand>
-        <Nav className='justify-content-end ms-auto nav-list' activeKey={'/home'}>
-          <Nav.Link className='item-link' href='/home'>Inicio</Nav.Link>
-          <Nav.Link className='item-link' href='#'>Catálogo</Nav.Link>
-          <Nav.Link className='item-link' href='#'>Cuenta</Nav.Link>
-        </Nav>
-      </Navbar>
+        {/* Navbar fijo */}
+        <NavBar />
 
-      {/* Login Form */}
-      <LoginForm/>
+
+
+        {/* Rutas */}
+        <Routes>
+          {/* Muestra por defecto el formulario de Iniciar sesión */}
+          <Route path="/" element={<LoginForm/>}></Route>
+
+          {/* para redireccionar a la ventana de registro */}
+          <Route path="/register" element={<Register/>}></Route>
+          <Route path="/catalogo" element={<Catalogo/>}></Route>
+          <Route path="/cuenta" element={<Cuenta/>}></Route>
+
+        </Routes>
+        {/* Visualización del catálogo sin opción de reservar. */}
+        <Preview />
     </>
   )
 }

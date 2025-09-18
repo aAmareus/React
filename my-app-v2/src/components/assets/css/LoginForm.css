@@ -1,0 +1,69 @@
+.form-container {
+    max-width: 33% !important;
+    margin: auto;
+    background: #fff;
+    border-radius: 14px;
+
+}
+
+.input {
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 2px solid #000 !important;
+    transition: .3s;
+}
+
+.input:focus {
+    box-shadow: none !important;
+    border-bottom: 2px solid #daa520 !important;
+    transition: .3s;
+
+}
+
+.login-btn {
+    padding: 10px 30px;
+    background: #fff;
+    border-radius: 0 !important;
+    border: 1px solid #000;
+    color: #000 !important;
+    transition: .5s
+    ;
+}
+
+.login-btn:hover {
+    border: 1px solid #000;
+}
+
+.login-btn::before {
+    content: "Iniciar Sesión";
+    position: absolute;
+    padding: 10px 30px;
+    margin-left: -31px;
+    margin-top: -11px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    pointer-events: none;
+}
+
+.login-btn:hover::before {
+    transform: scaleX(1);
+    transition: .5s;
+}
+
+.redirectToRegister {
+    color: #000;
+}
+
+.RegisterLink {
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.RegisterLink:hover {
+    color: #000;
+    text-decoration: 1px solid #000 underline;
+}
