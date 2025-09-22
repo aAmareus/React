@@ -1,5 +1,7 @@
 .form-container {
-    max-width: 33% !important;
+    max-width: 40% !important;
+    
+    margin-top: 10rem !important;
     margin: auto;
     background: #fff;
     border-radius: 14px;
@@ -46,6 +48,7 @@
     transform: scaleX(0);
     transform-origin: left;
     pointer-events: none;
+    transition: .5s;
 }
 
 .login-btn:hover::before {

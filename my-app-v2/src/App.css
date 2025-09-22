@@ -7,10 +7,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: start center;
-}
-
-.navbar-container {
   width: 100vw;
-  height: 60px;
-  padding: 0 50px !important;
 }

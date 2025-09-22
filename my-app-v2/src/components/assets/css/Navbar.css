@@ -1,3 +1,7 @@
+.navbar-container {
+    width: 100%;
+}
+
 .item-link:not(:first-child) {
     color: #000 !important;
     transition: .5s ease;
