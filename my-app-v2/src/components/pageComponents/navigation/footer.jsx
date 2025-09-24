@@ -25,7 +25,7 @@ function Footer() {
                     />
                 </Col>
                 <Col className="d-flex justify-content-center align-items-center col-8">
-                <h6>Blibioteca Municipal de Estación Central | &#169; Todos los Derechos reservados - 2024</h6>
+                <h6>Blibioteca Municipal de Estación Central | &#169; Todos los Derechos reservados - 2025</h6>
                 </Col>
             </Row>
         </>

@@ -42,50 +42,51 @@ function LoginForm() {
 
     return (
         <>  {/* Main Container */}
-            <div className="form-container d-flex align-items-center justify-content-evenly p-2 mt-10">
+            <div className="form-container d-flex align-items-center justify-content-evenly p-5 gap-5 mt-10">
                 <div className="img-holder">
-                    <img src={LogoText} 
-                        alt="Logo de la biblioteca en Blanco y Negro con el Nombre de esta." 
+                    <img src={LogoText}
+                        alt="Logo de la biblioteca en Blanco y Negro con el Nombre de esta."
                     />
                 </div>
                 <div className="form-content">
+                    <h4>¡Bienvenid@! ingresa tus credenciales para ingresar a la biblioteca</h4>
                     <FloatingLabel
                         controlId='floatingInput'
                         label='Correo Electronico'
                         className='mb-3'
                     >
-                        <Form.Control 
-                        type='email' 
-                        placeholder='Ejemplo@correo.com' 
-                        className='input' 
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        <Form.Control
+                            type='email'
+                            placeholder='Ejemplo@correo.com'
+                            className='input'
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                         />
                     </FloatingLabel>
 
-                    <FloatingLabel 
-                        controlId='floatingPassword' 
+                    <FloatingLabel
+                        controlId='floatingPassword'
                         label='Password'
                         className='mb-3'
                     >
-                        <Form.Control 
-                        type={showPassword ? 'text' : 'password'} 
-                        placeholder='Contraseña' 
-                        className='input' 
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
+                        <Form.Control
+                            type={showPassword ? 'text' : 'password'}
+                            placeholder='Contraseña'
+                            className='input'
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
                         />
 
                         {/* Trigger to see n' hide password */}
 
                         <div className="trigger">
-                            <input type="checkbox" 
-                            className='toggle-check'
-                            checked={showPassword}
-                            onChange={() => setShowPassword(!showPassword)} // Cambia al hacer click
+                            <input type="checkbox"
+                                className='toggle-check'
+                                checked={showPassword}
+                                onChange={() => setShowPassword(!showPassword)} // Cambia al hacer click
                             />
-                            <FontAwesomeIcon icon={showPassword ? 'fa-eye' : 'fa-eye-slash'} 
-                            className='toggle-icon'/>
+                            <FontAwesomeIcon icon={showPassword ? 'fa-eye' : 'fa-eye-slash'}
+                                className='toggle-icon' />
                         </div>
                     </FloatingLabel>
 

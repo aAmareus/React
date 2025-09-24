@@ -195,7 +195,6 @@ function Preview() {
                         <Button className="btn btn-secondary">Detalles</Button>
                         <Button className="btn btn-primary">Reservar</Button>
                     </div>
-
                 </Card.Body>
             </Card>
         </div>

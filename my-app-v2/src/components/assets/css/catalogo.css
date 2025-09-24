@@ -1,0 +1,9 @@
+.catalogo-body {
+    background: #fff;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.mt-10 {
+    margin-top: 10rem !important;
+}
