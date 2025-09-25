@@ -26,7 +26,7 @@ function NavBar() {
       </Navbar.Brand>
       <Nav className='justify-content-end ms-auto nav-list' activeKey={'/home'}>
         <Nav.Link className='item-link' as={Link} to="/">Inicio</Nav.Link>
-        <Nav.Link className='item-link' as={Link} to="/catalogo">Catálogo</Nav.Link>
+        <Nav.Link className='item-link' as={Link} to="/dashboard">Catálogo</Nav.Link>
         <Nav.Link className='item-link' as={Link} to="/cuenta">Cuenta</Nav.Link>
       </Nav>
     </Navbar>

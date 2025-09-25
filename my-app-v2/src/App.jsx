@@ -1,12 +1,11 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import {Route, Routes} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom';
 
 // Import custom pages
 import Index from './components/pages/index.jsx'
 import Register from './components/pages/register.jsx'
-import Catalogo from './components/pages/catalogo.jsx'
 import Adminpanel from './components/pages/adminpanel.jsx'
 import Dashboard from './components/pages/Dashboard.jsx'
 
@@ -22,7 +21,6 @@ function App() {
 
           {/* para redireccionar a la ventana de registro */}
           <Route path="/register" element={<Register/>}></Route>
-          <Route path="/catalogo" element={<Catalogo/>}></Route>
 
           {/* Rutas para los dashboards */}
           <Route path="/dashboard" element={<Dashboard/>}></Route>

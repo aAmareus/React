@@ -43,7 +43,7 @@ function LoginForm() {
     return (
         <>  {/* Main Container */}
             <div className="form-container d-flex align-items-center justify-content-evenly p-5 gap-5 mt-10">
-                <div className="img-holder">
+                <div className="img-holder col-4 d-flex align-items-center justify-content-center">
                     <img src={LogoText}
                         alt="Logo de la biblioteca en Blanco y Negro con el Nombre de esta."
                     />

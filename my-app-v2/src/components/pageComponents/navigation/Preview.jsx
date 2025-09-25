@@ -32,7 +32,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -55,7 +55,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -78,7 +78,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -101,7 +101,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -124,7 +124,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -147,7 +147,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -170,7 +170,7 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
 
                 </Card.Body>
@@ -193,8 +193,9 @@ function Preview() {
                     </ListGroup>
                     <div className="btn-container d-flex justify-content-evenly">
                         <Button className="btn btn-secondary">Detalles</Button>
-                        <Button className="btn btn-primary">Reservar</Button>
+                        <Button className="btn btn-success">Reservar</Button>
                     </div>
+
                 </Card.Body>
             </Card>
         </div>

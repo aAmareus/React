@@ -1,0 +1,44 @@
+.register-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+
+.btn-register-user {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 10px 50px;
+}
+
+.btn-register-user::before {
+    content: 'Registrarse';
+    position: absolute;
+    padding: 10px 50px;
+    background: #000;
+    color: #fff;
+    border: 1px solid#fff;
+    margin-top: -11px;
+    margin-left: -51px;
+    transform: scaleX(0);
+    transform-origin: left;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.btn-register-user:hover::before {
+    transform: scaleX(1);
+    transition: .5s;
+}
+
+.btn-register-user:hover {
+    border: 1px solid #000;
+}
+
+
