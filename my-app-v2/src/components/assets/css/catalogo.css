@@ -7,3 +7,54 @@
 .mt-10 {
     margin-top: 10rem !important;
 }
+
+.cart-small {
+    width: 220px;
+    min-width: 180px;
+    max-width: 100%;
+}
+
+.cart-sticky {
+    position: sticky;
+    top: 2rem;
+    z-index: 100;
+}
+
+
+@media (min-width: 1200px) {
+    .col-5th {
+        flex: 0 0 20%;
+        max-width: 20%;
+        display: block;
+    }
+}
+
+.cards-row {
+    gap: 2rem !important;
+}
+
+.dashboard-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.catalogo-list {
+    flex: 1 1 0%;
+}
+
+.cart-sticky {
+    position: sticky;
+    top: 2rem;
+    z-index: 100;
+    align-self: flex-start;
+    height: fit-content;
+}
+
+
+/* Responsivo para pantallas madianas y grandes */
+@media (min-width: 768px) {
+    .mt {
+        margin-top: 5rem !important;
+    }
+}

@@ -91,3 +91,13 @@
     color: #000;
     text-decoration: 1px solid #000 underline;
 }
+
+/* Estilos para pantallas medianas y grandes */
+
+@media (min-width: 768px) {
+    .form-container {
+        max-width: 50% !important;
+
+        margin-top: 10rem !important;
+    }
+}

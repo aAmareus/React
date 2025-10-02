@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 // Importing Custom CSS
-import '../../assets/css/LoginForm.css'
+import '../../assets/css/loginForm.css'
 
 // Importing Bootstrap components
 import FloatingLabel from 'react-bootstrap/FloatingLabel';

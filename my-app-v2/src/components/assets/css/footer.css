@@ -10,3 +10,11 @@
     background: #fff;
     margin-left: 0 !important;
 }
+
+@media (max-width: 576px) {
+    .footer-container h6 {
+        font-size: 1rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

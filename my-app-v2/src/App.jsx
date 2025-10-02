@@ -7,7 +7,7 @@ import {Route, Routes} from 'react-router-dom';
 import Index from './components/pages/index.jsx'
 import Register from './components/pages/register.jsx'
 import Adminpanel from './components/pages/adminpanel.jsx'
-import Dashboard from './components/pages/Dashboard.jsx'
+import Dashboard from './components/pages/dashboard.jsx';
 
 function App() {
 
